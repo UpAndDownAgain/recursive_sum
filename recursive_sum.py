@@ -4,5 +4,5 @@ def recursive_sum(array):
     else:
         return array[0] + recursive_sum(array[1:])
 
-arr = [1,2,3,4,5,6,7]
+arr = [1,2,3,4,5,6,7,8]
 print(recursive_sum(arr))
